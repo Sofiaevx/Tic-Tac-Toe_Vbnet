@@ -22,158 +22,238 @@ Partial Class TicTacToe
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.TopLeftBtn = New System.Windows.Forms.Button()
+        Me.MiddleTopBtn = New System.Windows.Forms.Button()
+        Me.TopRightBtn = New System.Windows.Forms.Button()
+        Me.MiddleLeftBtn = New System.Windows.Forms.Button()
+        Me.MiddleCenterBtn = New System.Windows.Forms.Button()
+        Me.MiddleRightBtn = New System.Windows.Forms.Button()
+        Me.BottomRightBtn = New System.Windows.Forms.Button()
+        Me.MiddleBottomBtn = New System.Windows.Forms.Button()
+        Me.BottomLeftBtn = New System.Windows.Forms.Button()
+        Me.Player1name = New System.Windows.Forms.Label()
+        Me.HomeBtn = New System.Windows.Forms.Button()
+        Me.ResetBtn = New System.Windows.Forms.Button()
+        Me.Player2name = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'TopLeftBtn
         '
-        Me.Button1.BackColor = System.Drawing.Color.Black
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(29, 26)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 82)
-        Me.Button1.TabIndex = 0
-        Me.Button1.TabStop = False
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.TopLeftBtn.BackColor = System.Drawing.Color.Black
+        Me.TopLeftBtn.FlatAppearance.BorderSize = 0
+        Me.TopLeftBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TopLeftBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TopLeftBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.TopLeftBtn.Location = New System.Drawing.Point(12, 94)
+        Me.TopLeftBtn.Name = "TopLeftBtn"
+        Me.TopLeftBtn.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.TopLeftBtn.Size = New System.Drawing.Size(79, 82)
+        Me.TopLeftBtn.TabIndex = 0
+        Me.TopLeftBtn.TabStop = False
+        Me.TopLeftBtn.Text = "X"
+        Me.TopLeftBtn.UseVisualStyleBackColor = False
         '
-        'Button2
+        'MiddleTopBtn
         '
-        Me.Button2.BackColor = System.Drawing.Color.Black
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(114, 26)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(79, 82)
-        Me.Button2.TabIndex = 1
-        Me.Button2.TabStop = False
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.MiddleTopBtn.BackColor = System.Drawing.Color.Black
+        Me.MiddleTopBtn.FlatAppearance.BorderSize = 0
+        Me.MiddleTopBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MiddleTopBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.MiddleTopBtn.Location = New System.Drawing.Point(106, 94)
+        Me.MiddleTopBtn.Name = "MiddleTopBtn"
+        Me.MiddleTopBtn.Size = New System.Drawing.Size(79, 82)
+        Me.MiddleTopBtn.TabIndex = 1
+        Me.MiddleTopBtn.TabStop = False
+        Me.MiddleTopBtn.UseVisualStyleBackColor = False
         '
-        'Button3
+        'TopRightBtn
         '
-        Me.Button3.BackColor = System.Drawing.Color.Black
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(199, 26)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(79, 82)
-        Me.Button3.TabIndex = 2
-        Me.Button3.TabStop = False
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.TopRightBtn.BackColor = System.Drawing.Color.Black
+        Me.TopRightBtn.FlatAppearance.BorderSize = 0
+        Me.TopRightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TopRightBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.TopRightBtn.Location = New System.Drawing.Point(202, 94)
+        Me.TopRightBtn.Name = "TopRightBtn"
+        Me.TopRightBtn.Size = New System.Drawing.Size(79, 82)
+        Me.TopRightBtn.TabIndex = 2
+        Me.TopRightBtn.TabStop = False
+        Me.TopRightBtn.UseVisualStyleBackColor = False
         '
-        'Button4
+        'MiddleLeftBtn
         '
-        Me.Button4.BackColor = System.Drawing.Color.Black
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(29, 114)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(79, 82)
-        Me.Button4.TabIndex = 3
-        Me.Button4.TabStop = False
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.MiddleLeftBtn.BackColor = System.Drawing.Color.Black
+        Me.MiddleLeftBtn.FlatAppearance.BorderSize = 0
+        Me.MiddleLeftBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MiddleLeftBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.MiddleLeftBtn.Location = New System.Drawing.Point(12, 182)
+        Me.MiddleLeftBtn.Name = "MiddleLeftBtn"
+        Me.MiddleLeftBtn.Size = New System.Drawing.Size(79, 82)
+        Me.MiddleLeftBtn.TabIndex = 3
+        Me.MiddleLeftBtn.TabStop = False
+        Me.MiddleLeftBtn.UseVisualStyleBackColor = False
         '
-        'Button5
+        'MiddleCenterBtn
         '
-        Me.Button5.BackColor = System.Drawing.Color.Black
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(114, 114)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(79, 82)
-        Me.Button5.TabIndex = 4
-        Me.Button5.TabStop = False
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.MiddleCenterBtn.BackColor = System.Drawing.Color.Black
+        Me.MiddleCenterBtn.FlatAppearance.BorderSize = 0
+        Me.MiddleCenterBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MiddleCenterBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.MiddleCenterBtn.Location = New System.Drawing.Point(106, 182)
+        Me.MiddleCenterBtn.Name = "MiddleCenterBtn"
+        Me.MiddleCenterBtn.Size = New System.Drawing.Size(79, 82)
+        Me.MiddleCenterBtn.TabIndex = 4
+        Me.MiddleCenterBtn.TabStop = False
+        Me.MiddleCenterBtn.UseVisualStyleBackColor = False
         '
-        'Button6
+        'MiddleRightBtn
         '
-        Me.Button6.BackColor = System.Drawing.Color.Black
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(199, 114)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(79, 82)
-        Me.Button6.TabIndex = 5
-        Me.Button6.TabStop = False
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.MiddleRightBtn.BackColor = System.Drawing.Color.Black
+        Me.MiddleRightBtn.FlatAppearance.BorderSize = 0
+        Me.MiddleRightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MiddleRightBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.MiddleRightBtn.Location = New System.Drawing.Point(202, 182)
+        Me.MiddleRightBtn.Name = "MiddleRightBtn"
+        Me.MiddleRightBtn.Size = New System.Drawing.Size(79, 82)
+        Me.MiddleRightBtn.TabIndex = 5
+        Me.MiddleRightBtn.TabStop = False
+        Me.MiddleRightBtn.UseVisualStyleBackColor = False
         '
-        'Button7
+        'BottomRightBtn
         '
-        Me.Button7.BackColor = System.Drawing.Color.Black
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(199, 202)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(79, 82)
-        Me.Button7.TabIndex = 8
-        Me.Button7.TabStop = False
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.BottomRightBtn.BackColor = System.Drawing.Color.Black
+        Me.BottomRightBtn.FlatAppearance.BorderSize = 0
+        Me.BottomRightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BottomRightBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BottomRightBtn.Location = New System.Drawing.Point(202, 270)
+        Me.BottomRightBtn.Name = "BottomRightBtn"
+        Me.BottomRightBtn.Size = New System.Drawing.Size(79, 82)
+        Me.BottomRightBtn.TabIndex = 8
+        Me.BottomRightBtn.TabStop = False
+        Me.BottomRightBtn.UseVisualStyleBackColor = False
         '
-        'Button8
+        'MiddleBottomBtn
         '
-        Me.Button8.BackColor = System.Drawing.Color.Black
-        Me.Button8.FlatAppearance.BorderSize = 0
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(114, 202)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(79, 82)
-        Me.Button8.TabIndex = 7
-        Me.Button8.TabStop = False
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.MiddleBottomBtn.BackColor = System.Drawing.Color.Black
+        Me.MiddleBottomBtn.FlatAppearance.BorderSize = 0
+        Me.MiddleBottomBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MiddleBottomBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.MiddleBottomBtn.Location = New System.Drawing.Point(106, 270)
+        Me.MiddleBottomBtn.Name = "MiddleBottomBtn"
+        Me.MiddleBottomBtn.Size = New System.Drawing.Size(79, 82)
+        Me.MiddleBottomBtn.TabIndex = 7
+        Me.MiddleBottomBtn.TabStop = False
+        Me.MiddleBottomBtn.UseVisualStyleBackColor = False
         '
-        'Button9
+        'BottomLeftBtn
         '
-        Me.Button9.BackColor = System.Drawing.Color.Black
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(29, 202)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(79, 82)
-        Me.Button9.TabIndex = 6
-        Me.Button9.TabStop = False
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.BottomLeftBtn.BackColor = System.Drawing.Color.Black
+        Me.BottomLeftBtn.FlatAppearance.BorderSize = 0
+        Me.BottomLeftBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BottomLeftBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BottomLeftBtn.Location = New System.Drawing.Point(12, 270)
+        Me.BottomLeftBtn.Name = "BottomLeftBtn"
+        Me.BottomLeftBtn.Size = New System.Drawing.Size(79, 82)
+        Me.BottomLeftBtn.TabIndex = 6
+        Me.BottomLeftBtn.TabStop = False
+        Me.BottomLeftBtn.UseVisualStyleBackColor = False
+        '
+        'Player1name
+        '
+        Me.Player1name.AutoSize = True
+        Me.Player1name.BackColor = System.Drawing.Color.Black
+        Me.Player1name.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Player1name.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Player1name.Location = New System.Drawing.Point(12, 44)
+        Me.Player1name.Name = "Player1name"
+        Me.Player1name.Size = New System.Drawing.Size(129, 22)
+        Me.Player1name.TabIndex = 9
+        Me.Player1name.Text = "Players name"
+        '
+        'HomeBtn
+        '
+        Me.HomeBtn.BackColor = System.Drawing.Color.Black
+        Me.HomeBtn.FlatAppearance.BorderSize = 0
+        Me.HomeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.HomeBtn.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.HomeBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.HomeBtn.Location = New System.Drawing.Point(202, 358)
+        Me.HomeBtn.Name = "HomeBtn"
+        Me.HomeBtn.Size = New System.Drawing.Size(79, 36)
+        Me.HomeBtn.TabIndex = 11
+        Me.HomeBtn.TabStop = False
+        Me.HomeBtn.Text = "Home"
+        Me.HomeBtn.UseVisualStyleBackColor = False
+        '
+        'ResetBtn
+        '
+        Me.ResetBtn.BackColor = System.Drawing.Color.Black
+        Me.ResetBtn.FlatAppearance.BorderSize = 0
+        Me.ResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ResetBtn.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ResetBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ResetBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.ResetBtn.Location = New System.Drawing.Point(12, 358)
+        Me.ResetBtn.Name = "ResetBtn"
+        Me.ResetBtn.Size = New System.Drawing.Size(79, 36)
+        Me.ResetBtn.TabIndex = 12
+        Me.ResetBtn.TabStop = False
+        Me.ResetBtn.Text = "Reset"
+        Me.ResetBtn.UseVisualStyleBackColor = False
+        '
+        'Player2name
+        '
+        Me.Player2name.AutoSize = True
+        Me.Player2name.BackColor = System.Drawing.Color.Black
+        Me.Player2name.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Player2name.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Player2name.Location = New System.Drawing.Point(152, 44)
+        Me.Player2name.Name = "Player2name"
+        Me.Player2name.Size = New System.Drawing.Size(129, 22)
+        Me.Player2name.TabIndex = 13
+        Me.Player2name.Text = "Players name"
         '
         'TicTacToe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
+        Me.BackColor = System.Drawing.Color.Silver
         Me.CausesValidation = False
-        Me.ClientSize = New System.Drawing.Size(305, 338)
+        Me.ClientSize = New System.Drawing.Size(293, 400)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Player2name)
+        Me.Controls.Add(Me.ResetBtn)
+        Me.Controls.Add(Me.HomeBtn)
+        Me.Controls.Add(Me.Player1name)
+        Me.Controls.Add(Me.BottomRightBtn)
+        Me.Controls.Add(Me.MiddleBottomBtn)
+        Me.Controls.Add(Me.BottomLeftBtn)
+        Me.Controls.Add(Me.MiddleRightBtn)
+        Me.Controls.Add(Me.MiddleCenterBtn)
+        Me.Controls.Add(Me.MiddleLeftBtn)
+        Me.Controls.Add(Me.TopRightBtn)
+        Me.Controls.Add(Me.MiddleTopBtn)
+        Me.Controls.Add(Me.TopLeftBtn)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "TicTacToe"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TICTACTOE"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
+    Friend WithEvents TopLeftBtn As Button
+    Friend WithEvents MiddleTopBtn As Button
+    Friend WithEvents TopRightBtn As Button
+    Friend WithEvents MiddleLeftBtn As Button
+    Friend WithEvents MiddleCenterBtn As Button
+    Friend WithEvents MiddleRightBtn As Button
+    Friend WithEvents BottomRightBtn As Button
+    Friend WithEvents MiddleBottomBtn As Button
+    Friend WithEvents BottomLeftBtn As Button
+    Friend WithEvents Player1name As Label
+    Friend WithEvents HomeBtn As Button
+    Friend WithEvents ResetBtn As Button
+    Friend WithEvents Player2name As Label
 End Class
