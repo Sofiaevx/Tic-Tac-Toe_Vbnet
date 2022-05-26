@@ -1,0 +1,18 @@
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.vbproj.AssemblyReference.cache
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic_Tac_Toe.TicTacToe.resources
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.vbproj.GenerateResource.cache
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.AssemblyInfoInputs.cache
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.AssemblyInfo.vb
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.vbproj.CoreCompileInputs.cache
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\bin\Debug\net6.0-windows\Tic Tac Toe.exe
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\bin\Debug\net6.0-windows\Tic Tac Toe.deps.json
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\bin\Debug\net6.0-windows\Tic Tac Toe.runtimeconfig.json
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\bin\Debug\net6.0-windows\Tic Tac Toe.dll
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\bin\Debug\net6.0-windows\Tic Tac Toe.pdb
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.dll
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\refint\Tic Tac Toe.dll
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.pdb
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.genruntimeconfig.cache
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\ref\Tic Tac Toe.dll
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic_Tac_Toe.Resources.resources
