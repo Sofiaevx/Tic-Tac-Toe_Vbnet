@@ -50,7 +50,7 @@ Partial Class TicTacToe
         Me.TopLeftBtn.FlatAppearance.BorderSize = 0
         Me.TopLeftBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.TopLeftBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TopLeftBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.TopLeftBtn.ForeColor = System.Drawing.Color.White
         Me.TopLeftBtn.Location = New System.Drawing.Point(14, 136)
         Me.TopLeftBtn.Name = "TopLeftBtn"
         Me.TopLeftBtn.Padding = New System.Windows.Forms.Padding(10, 0, 0, 0)
@@ -65,7 +65,7 @@ Partial Class TicTacToe
         Me.MiddleTopBtn.FlatAppearance.BorderSize = 0
         Me.MiddleTopBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MiddleTopBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.MiddleTopBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.MiddleTopBtn.ForeColor = System.Drawing.Color.White
         Me.MiddleTopBtn.Location = New System.Drawing.Point(99, 136)
         Me.MiddleTopBtn.Name = "MiddleTopBtn"
         Me.MiddleTopBtn.Size = New System.Drawing.Size(79, 82)
@@ -79,7 +79,7 @@ Partial Class TicTacToe
         Me.TopRightBtn.FlatAppearance.BorderSize = 0
         Me.TopRightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.TopRightBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TopRightBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.TopRightBtn.ForeColor = System.Drawing.Color.White
         Me.TopRightBtn.Location = New System.Drawing.Point(184, 136)
         Me.TopRightBtn.Name = "TopRightBtn"
         Me.TopRightBtn.Size = New System.Drawing.Size(79, 82)
@@ -93,7 +93,7 @@ Partial Class TicTacToe
         Me.MiddleLeftBtn.FlatAppearance.BorderSize = 0
         Me.MiddleLeftBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MiddleLeftBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.MiddleLeftBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.MiddleLeftBtn.ForeColor = System.Drawing.Color.White
         Me.MiddleLeftBtn.Location = New System.Drawing.Point(14, 224)
         Me.MiddleLeftBtn.Name = "MiddleLeftBtn"
         Me.MiddleLeftBtn.Size = New System.Drawing.Size(79, 82)
@@ -107,7 +107,7 @@ Partial Class TicTacToe
         Me.MiddleCenterBtn.FlatAppearance.BorderSize = 0
         Me.MiddleCenterBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MiddleCenterBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.MiddleCenterBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.MiddleCenterBtn.ForeColor = System.Drawing.Color.White
         Me.MiddleCenterBtn.Location = New System.Drawing.Point(99, 224)
         Me.MiddleCenterBtn.Name = "MiddleCenterBtn"
         Me.MiddleCenterBtn.Size = New System.Drawing.Size(79, 82)
@@ -121,7 +121,7 @@ Partial Class TicTacToe
         Me.MiddleRightBtn.FlatAppearance.BorderSize = 0
         Me.MiddleRightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MiddleRightBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.MiddleRightBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.MiddleRightBtn.ForeColor = System.Drawing.Color.White
         Me.MiddleRightBtn.Location = New System.Drawing.Point(184, 224)
         Me.MiddleRightBtn.Name = "MiddleRightBtn"
         Me.MiddleRightBtn.Size = New System.Drawing.Size(79, 82)
@@ -135,7 +135,7 @@ Partial Class TicTacToe
         Me.BottomRightBtn.FlatAppearance.BorderSize = 0
         Me.BottomRightBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BottomRightBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BottomRightBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.BottomRightBtn.ForeColor = System.Drawing.Color.White
         Me.BottomRightBtn.Location = New System.Drawing.Point(184, 312)
         Me.BottomRightBtn.Name = "BottomRightBtn"
         Me.BottomRightBtn.Size = New System.Drawing.Size(79, 82)
@@ -149,7 +149,7 @@ Partial Class TicTacToe
         Me.MiddleBottomBtn.FlatAppearance.BorderSize = 0
         Me.MiddleBottomBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MiddleBottomBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.MiddleBottomBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.MiddleBottomBtn.ForeColor = System.Drawing.Color.White
         Me.MiddleBottomBtn.Location = New System.Drawing.Point(99, 312)
         Me.MiddleBottomBtn.Name = "MiddleBottomBtn"
         Me.MiddleBottomBtn.Size = New System.Drawing.Size(79, 82)
@@ -163,7 +163,7 @@ Partial Class TicTacToe
         Me.BottomLeftBtn.FlatAppearance.BorderSize = 0
         Me.BottomLeftBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BottomLeftBtn.Font = New System.Drawing.Font("Snap ITC", 45.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BottomLeftBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(16, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.BottomLeftBtn.ForeColor = System.Drawing.Color.White
         Me.BottomLeftBtn.Location = New System.Drawing.Point(14, 312)
         Me.BottomLeftBtn.Name = "BottomLeftBtn"
         Me.BottomLeftBtn.Size = New System.Drawing.Size(79, 82)
