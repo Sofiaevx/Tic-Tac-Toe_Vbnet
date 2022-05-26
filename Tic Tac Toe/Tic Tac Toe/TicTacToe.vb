@@ -82,8 +82,31 @@
             Else
                 MessageBox.Show("Player 2 Wins!!")
             End If
+
         End If
     End Sub
 
+    Private Sub ResetBtn_Click(sender As Object, e As EventArgs) Handles ResetBtn.Click
+        turn = True
 
+        TopLeftBtn.Text = ""
+        MiddleLeftBtn.Text = ""
+        BottomLeftBtn.Text = ""
+        MiddleTopBtn.Text = ""
+        MiddleCenterBtn.Text = ""
+        MiddleBottomBtn.Text = ""
+        TopRightBtn.Text = ""
+        MiddleRightBtn.Text = ""
+        BottomRightBtn.Text = ""
+
+        TopLeftBtn.Enabled = True
+        MiddleLeftBtn.Enabled = True
+        BottomLeftBtn.Enabled = True
+        MiddleTopBtn.Enabled = True
+        MiddleCenterBtn.Enabled = True
+        MiddleBottomBtn.Enabled = True
+        TopRightBtn.Enabled = True
+        MiddleRightBtn.Enabled = True
+        BottomRightBtn.Enabled = True
+    End Sub
 End Class

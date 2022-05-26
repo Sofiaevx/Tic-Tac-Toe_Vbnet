@@ -206,7 +206,7 @@ Partial Class TicTacToe
         Me.ResetBtn.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.ResetBtn.ForeColor = System.Drawing.Color.White
         Me.ResetBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.ResetBtn.Location = New System.Drawing.Point(21, 404)
+        Me.ResetBtn.Location = New System.Drawing.Point(12, 404)
         Me.ResetBtn.Name = "ResetBtn"
         Me.ResetBtn.Size = New System.Drawing.Size(79, 36)
         Me.ResetBtn.TabIndex = 12
@@ -238,7 +238,7 @@ Partial Class TicTacToe
         Me.Playersturnlabel.Padding = New System.Windows.Forms.Padding(0, 7, 0, 0)
         Me.Playersturnlabel.Size = New System.Drawing.Size(251, 37)
         Me.Playersturnlabel.TabIndex = 14
-        Me.Playersturnlabel.Text = "Player's Turn"
+        Me.Playersturnlabel.Text = "Player 1 Turns"
         Me.Playersturnlabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'titlelabel
