@@ -2,11 +2,11 @@
     Private Sub PlayBtn_Click(sender As Object, e As EventArgs) Handles PlayBtn.Click
 
         Dim Jumptictactoe As New TicTacToe
+
         Jumptictactoe.p1name = Player1name.Text
         Jumptictactoe.p2name = Player2name.Text
         Jumptictactoe.Show()
         Me.Hide()
-
 
     End Sub
 

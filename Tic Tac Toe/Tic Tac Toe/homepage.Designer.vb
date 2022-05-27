@@ -112,6 +112,7 @@ Partial Class homepage
         Me.Controls.Add(Me.Player1name)
         Me.Controls.Add(Me.Player2name)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "homepage"
