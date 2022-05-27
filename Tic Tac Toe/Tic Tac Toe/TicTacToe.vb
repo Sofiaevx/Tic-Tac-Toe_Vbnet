@@ -2,6 +2,8 @@
     Dim turn As Boolean = True
     Dim playeronescore As Short
     Dim playertwoscore As Short
+    Public Property p1name As String
+    Public Property p2name As String
 
 
     Private Sub btn1to9(sender As Object, e As EventArgs) Handles BottomLeftBtn.Click, MiddleBottomBtn.Click, BottomRightBtn.Click, MiddleRightBtn.Click, MiddleCenterBtn.Click, MiddleLeftBtn.Click, TopRightBtn.Click, MiddleTopBtn.Click, TopLeftBtn.Click
@@ -9,11 +11,11 @@
 
         If turn Then
             allninebuttons.Text = "X"
-            Playersturnlabel.Text = "Player 2 Turns"
+            Playersturnlabel.Text = p2name + "'s Turn"
             turn = False
         Else
             allninebuttons.Text = "O"
-            Playersturnlabel.Text = "Player 1 Turns"
+            Playersturnlabel.Text = p1name + "'s Turn"
             turn = True
         End If
         allninebuttons.Enabled = False
@@ -150,6 +152,9 @@
     Private Sub TicTacToe_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         p1score.Text = playeronescore
         p2score.Text = playertwoscore
+        Playersturnlabel.Text = p1name + "'s Turn"
+        Player1name.Text = p1name
+        Player2name.Text = p2name
     End Sub
 
     Private Sub HomeBtn_Click(sender As Object, e As EventArgs) Handles HomeBtn.Click
@@ -157,4 +162,6 @@
         jumphomepage.Show()
         Me.Hide()
     End Sub
+
+
 End Class

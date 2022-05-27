@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class homepage
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,14 +20,16 @@ Partial Class homepage
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(homepage))
         Me.Player2name = New System.Windows.Forms.TextBox()
         Me.Player1name = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PlayBtn = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -81,6 +83,7 @@ Partial Class homepage
         'PlayBtn
         '
         Me.PlayBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(96, Byte), Integer))
+        Me.PlayBtn.Enabled = False
         Me.PlayBtn.FlatAppearance.BorderSize = 0
         Me.PlayBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.PlayBtn.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
@@ -92,6 +95,10 @@ Partial Class homepage
         Me.PlayBtn.TabStop = False
         Me.PlayBtn.Text = "Play"
         Me.PlayBtn.UseVisualStyleBackColor = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
         '
         'homepage
         '
@@ -120,4 +127,5 @@ Partial Class homepage
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents PlayBtn As Button
+    Friend WithEvents Timer1 As Timer
 End Class
