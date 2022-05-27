@@ -16,3 +16,4 @@ C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-wi
 C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic Tac Toe.genruntimeconfig.cache
 C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\ref\Tic Tac Toe.dll
 C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic_Tac_Toe.Resources.resources
+C:\Users\Jv Cataquiz\srevx\TictacToe\Tic Tac Toe\Tic Tac Toe\obj\Debug\net6.0-windows\Tic_Tac_Toe.homepage.resources

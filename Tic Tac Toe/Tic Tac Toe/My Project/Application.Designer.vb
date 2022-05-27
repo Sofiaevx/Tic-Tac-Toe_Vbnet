@@ -31,7 +31,8 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = TicTacToe
+            Me.MainForm = homepage
+
 
         End Sub
     End Class
