@@ -23,39 +23,39 @@ Partial Class homepage
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(homepage))
+        Me.Player2name = New System.Windows.Forms.TextBox()
         Me.Player1name = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PlayBtn = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Player2name
+        '
+        Me.Player2name.BackColor = System.Drawing.SystemColors.ControlText
+        Me.Player2name.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Player2name.ForeColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(36, Byte), Integer))
+        Me.Player2name.Location = New System.Drawing.Point(27, 353)
+        Me.Player2name.MaxLength = 10
+        Me.Player2name.Name = "Player2name"
+        Me.Player2name.PlaceholderText = "Enter player 2 name:"
+        Me.Player2name.Size = New System.Drawing.Size(223, 26)
+        Me.Player2name.TabIndex = 16
+        Me.Player2name.TabStop = False
+        '
         'Player1name
         '
         Me.Player1name.BackColor = System.Drawing.SystemColors.ControlText
         Me.Player1name.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Player1name.ForeColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(36, Byte), Integer))
-        Me.Player1name.Location = New System.Drawing.Point(27, 353)
+        Me.Player1name.Location = New System.Drawing.Point(27, 307)
         Me.Player1name.MaxLength = 10
         Me.Player1name.Name = "Player1name"
-        Me.Player1name.PlaceholderText = "Enter player 2 name:"
+        Me.Player1name.PlaceholderText = "Enter player 1 name:"
         Me.Player1name.Size = New System.Drawing.Size(223, 26)
-        Me.Player1name.TabIndex = 16
+        Me.Player1name.TabIndex = 17
         Me.Player1name.TabStop = False
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.ControlText
-        Me.TextBox1.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(86, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(36, Byte), Integer))
-        Me.TextBox1.Location = New System.Drawing.Point(27, 307)
-        Me.TextBox1.MaxLength = 10
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.PlaceholderText = "Enter player 1 name:"
-        Me.TextBox1.Size = New System.Drawing.Size(223, 26)
-        Me.TextBox1.TabIndex = 17
-        Me.TextBox1.TabStop = False
         '
         'PictureBox1
         '
@@ -102,8 +102,8 @@ Partial Class homepage
         Me.Controls.Add(Me.PlayBtn)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Player1name)
+        Me.Controls.Add(Me.Player2name)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.MinimizeBox = False
@@ -115,8 +115,8 @@ Partial Class homepage
         Me.PerformLayout()
 
     End Sub
+    Friend WithEvents Player2name As TextBox
     Friend WithEvents Player1name As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents PlayBtn As Button

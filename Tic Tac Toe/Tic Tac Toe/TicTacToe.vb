@@ -151,4 +151,10 @@
         p1score.Text = playeronescore
         p2score.Text = playertwoscore
     End Sub
+
+    Private Sub HomeBtn_Click(sender As Object, e As EventArgs) Handles HomeBtn.Click
+        Dim jumphomepage As New homepage
+        jumphomepage.Show()
+        Me.Hide()
+    End Sub
 End Class
